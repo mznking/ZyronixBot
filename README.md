@@ -1,5 +1,9 @@
 # Unveiling Zyronix Bot - Your WhatsApp Assistant 🤖
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/mznking/ZyronixBot/v1.0/assets/MznKing-ZyronixBot-1.jpg"/>
+</p>
+
 Get ready for a revolutionary WhatsApp experience with [Zyronix Bot](https://github.com/mznking/ZyronixBot) developed by [MZN King](https://github.com/mznking)! Launching on **January 1, 2024**. 🎉
 
 🚀 **Key Features:**
