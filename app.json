@@ -1,0 +1,61 @@
+{
+  "name": "ZyronixBot-MD",
+  "description": "Zyronix [WA Multi-device] - An advanced whatsapp user bot that provide many services with a real-time automated conversational experience.",
+  "repository": "https://github.com/mznking/ZyronixBot",
+  "logo": "https://telegra.ph/file/e225a89ed323e6406e485.jpg",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "rpg", "zyronix-bot-md", "zyronix-bot"]
+
+"repository": "https://github.com/mznking/ZyronixBot",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Session id of your bot.",
+      "required": true,
+      "value": ""
+    },
+    "DATABASE_URL": {
+      "description": "URL of your MongoDB database",
+      "required": false,
+      "value": ""
+    },
+      "OPENAI_API_KEY": {
+        "description": "API key for OpenAI integration",
+        "required": false,
+        "value": ""
+    },
+    "OPENAI_ORGANIZATION": {
+      "description": "Organization ID for OpenAI",
+      "required": false,
+      "value": "null"
+    },
+    "AUTO_STATUS_VIEW": {
+      "description": "Enable for the bot to view status",
+      "required": false,
+      "value": ""
+    },
+    "AUTO_READ_RECEIPTS": {
+      "description": "Enable for the bot to send read receipts",
+      "required": "false",
+      "value": "null"        
+    }
+    "ANTI_DELETE": {
+      "description": "Enable to forward deleted messages.",
+      "required": "false",
+      "value": "null"
+    }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
