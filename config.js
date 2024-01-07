@@ -46,7 +46,7 @@ global.fgsc = 'https://github.com/mznking/ZyronixBot'
 global.fgyt = 'https://youtube.com/@mznking'
 global.fgpyp = 'https://youtube.com/@mznking'
 global.fglog = 'https://raw.githubusercontent.com/mznking/api/ZyronixBot/ZyronixBot.jpg' 
-global.thumb = fs.readFileSync('./Assets/ZyronixBotlogo.jpg')
+global.thumb = fs.readFileSync('./assets/ZyronixBotLogo.jpg')
 
 /*
           ⚡ REPLY & REACTIONS ⚡
