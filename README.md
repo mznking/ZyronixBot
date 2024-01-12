@@ -11,7 +11,7 @@ Get ready for a revolutionary WhatsApp experience with [Zyronix Bot](https://git
 - Advanced automation to simplify your tasks.
 - Customization options tailored just for you.
 
-📅 **Save the Date:** January 12, 2024
+📅 **Save the Date:** January 23, 2024
 
 Join us on [GitHub](https://github.com/mznking/ZyronixBot) for updates and sneak peeks. Be part of the excitement!
 
