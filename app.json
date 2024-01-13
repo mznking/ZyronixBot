@@ -7,49 +7,84 @@
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Session id of your bot.",
+      "description": "Unique identifier for the bot's session",
       "required": true,
       "value": ""
     },
+    "OWNER_NUMBERS": {
+      "description": "Phone numbers of bot owners. Format: 'number, name, isActive'. Example: '94789481495, MZN, true'",
+      "required": false,
+      "value": "'94789481495, MZN, true', '94771227821, Maazin, true'"
+    },
     "DATABASE_URL": {
-      "description": "URL of your MongoDB database",
-      "required": false,
-      "value": ""
+      "description": "URL of your MongoDB database (Don't change it)",
+      "required": true,
+      "value": "mongodb+srv://ZyronixBot:ZyronixBot@zyronixbot.fmmkkfs.mongodb.net/?retryWrites=true&w=majority"
     },
-    "OPENAI_API_KEY": {
-      "description": "API key for OpenAI integration",
-      "required": false,
-      "value": ""
+    "BOT_NAME": {
+      "description": "Name of the bot",
+      "required": true,
+      "value": "⚡ ZYRONIX BOT ⚡"
     },
-    "OPENAI_ORGANIZATION": {
-      "description": "Organization ID for OpenAI",
-      "required": false,
-      "value": "null"
-    },
-    "AUTO_STATUS_VIEW": {
+    "statusview": {
       "description": "Enable for the bot to view status",
       "required": false,
-      "value": ""
+      "value": "true"
     },
-    "AUTO_READ_RECEIPTS": {
+    "autoRead": {
       "description": "Enable for the bot to send read receipts",
       "required": false,
-      "value": "null"
+      "value": "true"
+    },
+    "STICKER_WM": {
+      "description": "Sticker watermark information. Format: 'packname;author'. Example: 'Packname;Author'",
+      "required": true,
+      "value": "⚡ Zyronix Bot ⚡;mznking"
+    },
+    "LOGO_LINK": {
+      "description": "Link to the bot's logo image",
+      "required": false,
+      "value": "https://raw.githubusercontent.com/mznking/ZyronixBot/v1.0/assets/ZyronixBotLogo.jpg"
+    },
+    "THUMBNAIL_PATH": {
+      "description": "Path to the bot's thumbnail image",
+      "required": false,
+      "value": "./assets/Zyronix-Logo1.jpg"
+    },
+    "MENU_VIDEO": {
+      "description": "Link to the menu video",
+      "required": false,
+      "value": "https://i.imgur.com/AjDzGgG.mp4"
     },
     "ANTI_DELETE": {
       "description": "Enable to forward deleted messages.",
       "required": false,
-      "value": "null"
+      "value": "true"
     },
-    "TIMEZONE": {
-      "description": "Timezone of your city.",
-      "required": false,
-      "value": "null"
+    "REMOVEBG_KEY": {
+      "description": "API key for RemoveBG service",
+      "required": true,
+      "value": ""
     },
-    "LANGUAGE": {
-      "description": "Language code for your bot.",
+    "PREFIX": {
+      "description": "Command prefix for the bot (Leave it empty for use multiprefix)",
+      "required": true,
+      "value": ""
+    },
+    "MODE": {
+      "description": "Bot mode",
+      "required": true,
+      "value": "public"
+    },
+    "MODERATORS": {
+      "description": "Moderator numbers of bot. (use comma to add more)",
       "required": false,
-      "value": "null"
+      "value": "94771227821"
+    },
+    "INBOX_ALLOWED": {
+      "description": "Users allowed to use bot in inbox when bot mode is private (use comma to add more)",
+      "required": false,
+      "value": "94771227821"
     }
   },
   "buildpacks": [
