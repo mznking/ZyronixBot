@@ -14,7 +14,7 @@ handler.all = async function (m) {
       }) * 1000
     }
     let muptime = clockString(_muptime)
-		let bio = `\n👨‍🎤 Zyronix Bot [WA Multi Device] - Running Time: ${muptime}`
+		let bio = `\n👨‍🎤 Scorpion Bot [WA Multi Device] - Running Time: ${muptime}`
 		await this.updateProfileStatus(bio).catch(_ => _)
 		setting.status = new Date() * 1
   }
