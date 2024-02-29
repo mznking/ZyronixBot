@@ -13,7 +13,11 @@
 
 ⬆️ **Step 3: Upload `creds.json`**
 
-You can find your creds.json from `/storage/emulated/0/WhatsApp/Media/WhatsApp Documents/Sent/` or `/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Documents/Sent/` folder.
+You can find your creds.json from `/storage/emulated/0/WhatsApp/Media/WhatsApp Documents/Sent/`
+
+--- or ---
+
+`/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Documents/Sent/` folder.
 
 1. Within the `session` folder, click on the "Add file" button and select "Upload files".
 2. Choose your `creds.json` file from your local machine.
