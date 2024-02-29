@@ -10,8 +10,8 @@
 * @author MzN KinG <https://github.com/mznking>
 * @description A WhatsApp based 3ʳᵈ party application that provide many services with a real-time automated conversational experience
 * @link <https://github.com/mznking/ZyronixBot>
-* @version 4.0.8
-* @file index.js - Second main file of Zyronix WA Bot.
+* @version 1.0.0
+* @file main.js - Second main file of Zyronix WA Bot.
 
 All rights reserved. Copyright © Maazin Ahamed 2023. No part of this Zyronix WhatsApp Multi-Device Bot project may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the copyright holder, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, contact maazinkingmc@gmail.com
 
